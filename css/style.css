@@ -1,0 +1,399 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+} 
+a, a:hover{
+    text-decoration: none;
+}
+
+/*global css start*/
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-4{
+    width: 33.33%;
+    float: left;
+}
+.col-6{
+    width: 50%;
+    float: left;
+}
+.col-12{
+    width: 100%;
+    float: left;
+}
+/*global css end*/
+
+/* Header Section Start */
+.header{
+    width: 100%;
+    float: left;
+    padding: 15px 0px;
+}
+.colb{
+    width: 100%;
+    float: left;
+    background: #015761;
+    padding: auto;
+    height: 500px;
+}
+.head{
+    width: 100%;
+    float: left;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.h1{
+    text-align: left;
+    margin: 5px 150px;
+    width: 100%;
+    float: left;
+    color: #FFFF;
+    transition: 1s;   
+}
+.h2{
+    text-align: left;
+    color: #F7DC45;
+    width: 100%;
+    float: left;
+    margin-top: 150px;
+    margin: 0px 150px;
+}
+.h3{
+    text-align: left;
+    width: 100%;
+    float: left;
+    color: #F7DC45;
+    font-size: 22px;
+    margin: 15px;
+}
+.hp{
+    width: 100%;
+    float: left;
+    text-align: left;
+    color: #ffff;
+    margin-top: 150px;
+    margin: 0px 150px;
+}
+.menu{
+    width: 100%;
+    float: left;  
+    text-align: left; 
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+.menu li a{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px 0px 0px 15px;
+    color: #FFFF;
+    transition: 1s;
+}
+.menu li a:hover{
+    color: #F7DC45;
+}
+.col-6 img{
+    width: 100%;
+    float: left;
+    height: 500px;
+}
+.sharefb{
+    width: 150px;
+    position: fixed;
+    top: 40%;
+    right: -101px;
+    transition: 1s;
+}
+.sharefb:hover{
+    right: -1px;
+    cursor: pointer;   
+}
+.shareinsta{
+    width: 150px;
+    position: fixed;
+    top: 50%;
+    right: -110px;
+    transition: 1s;
+}
+.shareinsta:hover{
+    right: -1px; 
+    cursor: pointer;    
+}
+.shareyou{
+    width: 150px;
+    position: fixed;
+    top: 60%;
+    right: -100px;
+    transition: 1s;
+}
+.shareyou:hover{
+    right: -1px;  
+    cursor: pointer;   
+}
+.sharetwit{
+    width: 150px;
+    position: fixed;
+    top: 70%;
+    right: -105px;
+    transition: 1s;
+}
+.sharetwit:hover{
+    right: -1px; 
+    cursor: pointer;    
+}
+.sharein{
+    width: 150px;
+    position: fixed;
+    top: 80%;
+    right: -105px;
+    transition: 1s;
+}
+.sharein:hover{
+    right: -1px;  
+    cursor: pointer;   
+}
+/* Header Section End */
+.about{
+    width: 100%;
+    float: left;
+    
+}
+.ab{
+    width: 100%;
+    float: left;
+    background: #F1F0F0;
+}
+.about-me{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 36px;
+    padding: 40px 0px;
+    color: #015761;
+}
+.info{
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #687175;
+} 
+.button{
+    width: 150px;
+    height: 50px;
+    background: #F7DC4F;
+    transition: 1s;
+    color: #015761;
+    margin: 25px auto;
+    padding: 20px;
+}   
+.video-section{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.Showreel{
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    font-size: 48px;
+    text-align: center;
+    color: #015761;
+    padding: 20px;
+}
+.video{
+    width: 100%;
+    height: 35%;
+}
+.photo-section{
+    width: 100%;
+    float: left;
+    padding: 40px 0px 40px;
+}
+.photo{
+    width: 100%;
+    height: 100px;
+    margin-top: 45px;
+    font-size: 48px;
+    text-align: center;
+    color: #015761;
+    padding: 20px;
+}
+.col-4-f{
+    width: 100%;
+    margin: 8px 5px;
+	float: left;
+}   
+.col-4-s{
+    width: 100%;
+    margin: 8px 0px;
+	float: left;
+}    
+.img1{
+    width: 25%;
+    height: 250px;
+}
+.img2{
+    width: 35%;
+    height: 250px;
+}
+.img3{
+    width: 38%;
+    height: 250px;
+}
+.img4{
+    width: 35%;
+    height: 250px;
+}
+.img5{
+    width: 38%;
+    height: 250px;
+}
+.img6{
+    width: 25%;
+    height: 250px;
+}
+.img img{
+    width: 100%;
+    height: 600px;
+    float: left;
+}
+.info-data{
+    width: 100%;
+    height: 600px;
+    background: #015761;
+}
+.data{
+    width: 100%;
+    float: left;
+    margin: 45px 150px;
+}
+.info-data h1 {
+    color: #FEE04E;
+    font-size: 48px;
+    letter-spacing: 1px;
+    line-height: 77px;
+    top: 45px;
+}
+.info-data h3 {
+    width: 100%;
+    color: #fff;
+    font-size: 34px;
+    margin: 10px 0px;
+}
+.info-data h4{
+    color: #FFFFFF;
+    font-size: 13px;
+    line-height: 23px;
+
+}
+.social-media{
+    width: 100%;
+    margin: 0px 0px;
+    padding: 40px 0px;
+    text-align: left;   
+
+}
+.social-icon{
+    text-align: left;
+    width: 100%;
+    margin-top: 30px;
+}
+.social-icon li{
+    list-style: none;
+    text-align: center;
+    display: inline-block;    
+}
+.social-icon li a .fa{
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 100%;
+    font-size: 24px;
+    margin: 0px 5px;
+    transition: 1s;
+}
+.social-icon li a .fa-facebook{
+    background: #FFFFFF;
+    color: #1778f2;   
+}
+.social-icon li a .fa-facebook:hover{
+    background: #1778f2;
+    color: white;   
+}
+.social-icon li a .fa-instagram{   
+    background: #b30545;
+    color: #FFFFFF;   
+}
+.social-icon li a .fa-instagram:hover{
+    background:#FFFFFF;
+    color: #D13871;   
+}
+.social-icon li a .fa-twitter{   
+    background: #1da1f2;
+    color: #f5f8fa;   
+}
+.social-icon li a .fa-twitter:hover{
+    background: #FFFFFF;
+    color: #1da1f2;   
+}
+.social-icon li a .fa-linkedin{   
+    background: #4285f4;
+    color: #FFFFFF;   
+}
+.social-icon li a .fa-linkedin:hover{
+    background:#FFFFFF;
+    color: #4285f4;   
+}
+.social-icon li a .fa-youtube{   
+    background: #FF0000;
+    color: #FFFFFF;   
+}
+.social-icon li a .fa-youtube:hover{
+    background: white;
+    color: #FF0000;   
+}
+.social-icon li a .fa-behance{   
+    background: #FFFFFF;
+    color: #0884FF;   
+}
+.social-icon li a .fa-behance:hover{
+    background: #0884FF;
+    color: #FFFFFF;   
+}
+.footer-Section{
+    width: 100%;
+    height: 85px;
+    float: left;
+    padding: 20px opx;
+    background: #ffff;
+    text-align: center;
+}
+.footer-Section p{
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+    margin-top: 25px;
+}
+.footer-Section p a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
